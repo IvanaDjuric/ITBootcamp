@@ -44,6 +44,20 @@ let pokemon4 = {
 
 let pokemons = [pokemon1, pokemon2, pokemon3, pokemon4]
 
+//odradila sam na 2 nacina jer nisam znala sta se tacno trazi u zadatku, samo brojevi ili samo objekti poredjani
+
+function func(pokemons) {
+    let brzina = []
+    pokemons.forEach(element => {
+        brzina.push(element.chars.stamina)
+        brzina.sort((a,b) => a - b)
+        
+    }) 
+    return brzina
+}
+
+console.log(func(pokemons))
+
 pokemons.sort((a,b) => a.chars.stamina - b.chars.stamina)
 
 console.log(pokemons)
