@@ -1,3 +1,4 @@
+
 class Covek {
     constructor(ime,prezime,godinaRodjenja){
         this.ime = ime
