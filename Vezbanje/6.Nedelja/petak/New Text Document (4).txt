@@ -1,0 +1,7 @@
+const filtered = Object.keys(koktel)
+        .filter(key => key.includes('strIngredient') && koktel[key] != null)
+        .map(key => {
+            let obj = {}
+            obj[key] = koktel[key]
+            return obj
+        })

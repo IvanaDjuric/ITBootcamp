@@ -1,0 +1,15 @@
+https://www.codewars.com/kata/55b42574ff091733d900002f/train/javascript
+https://www.codewars.com/kata/57f609022f4d534f05000024/train/javascript
+https://www.codewars.com/kata/55f2b110f61eb01779000053/train/javascript
+https://www.codewars.com/kata/564d0490e96393fc5c000029/train/javascript
+--
+https://www.codewars.com/kata/583af10620dda4da270000c5/train/javascript
+https://www.codewars.com/kata/544aed4c4a30184e960010f4/train/javascript
+--
+https://www.codewars.com/kata/558fc85d8fd1938afb000014/train/javascript
+--
+https://www.codewars.com/kata/59e8afdd0863c7bcb300013a/train/javascript
+--
+https://www.codewars.com/kata/550e9fd127c656709400024d/train/javascript
+---
+https://www.codewars.com/kata/55908aad6620c066bc00002a/train/javascript

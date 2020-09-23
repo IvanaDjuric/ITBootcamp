@@ -1,0 +1,187 @@
+body{
+  background-color:  #f2f2f2;
+}
+
+
+nav{
+  background-color: #00ccff;
+  color: white;
+  height: 50px;
+  margin-bottom: 20px;
+  padding-top: 15px;
+}
+
+nav ul{
+  display: inline;
+  padding: 10px 10px;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 15px;
+    display: inline;
+
+}
+nav ul li a{
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+
+}
+
+
+img{
+  width: 100px;
+  height: 100px;
+}
+
+footer{
+   background-color: white;
+   height: 40px;
+    padding-top: 20px;
+}
+
+h1{
+  color: grey;
+  display: inline;
+}
+h1>span{
+  color: #00ccff;
+}
+
+button{
+  background-color: #00e673;
+  color: white;
+  padding: 10px;
+  width: 120px;
+
+}
+
+.grid-container {
+    width: 60%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 1px 1px;
+    grid-template-areas: "Kensington Lenovo Kindle Canon" "Jarv New_ballance Neo Tp-link" "Epson Kinvo Sandisk Acer";
+    margin-right: 0;
+  }
+
+  .order{
+    background-color: gray;
+    color: white;
+    position: absolute;
+    top: 0%;
+    right: 5%;
+    display: inline;
+    width: 20%;
+    margin-top: -20px;
+  }
+
+  .order>ul>li{
+    list-style: none;
+    padding: 10px;
+  }
+
+.container{
+  width: 960px;
+  margin: 0 auto 20px;
+  position: relative;
+}
+  
+  .Kensington { grid-area: Kensington;
+
+margin: 0 10px 10px 0;}
+  
+  .Lenovo { grid-area: Lenovo;
+   
+    margin: 0 10px 10px 0; }
+  
+  .Canon { grid-area: Canon;
+    
+  margin: 0 10px 10px 0;}
+  
+  .Kindle { grid-area: Kindle;
+  
+  margin: 0 10px 10px 0;}
+  
+  .Jarv { grid-area: Jarv;
+    
+  margin: 0 10px 10px 0;}
+  
+  .New_ballance { grid-area: New_ballance;
+    
+  margin: 0 10px 10px 0;}
+  
+  .Neo { grid-area: Neo;
+   
+  margin: 0 10px 10px 0;}
+  
+  .Tp-link { grid-area: Tp-link;
+    
+  margin: 0 10px 10px 0;}
+  
+  .Epson { grid-area: Epson;
+   
+  margin: 0 10px 10px 0;}
+  
+  .Kinvo { grid-area: Kinvo;
+  
+  margin: 0 10px 10px 0;}
+  
+  .Sandisk { grid-area: Sandisk;
+    
+  margin: 0 10px 10px 0;}
+  
+  .Acer { grid-area: Acer;
+    
+  margin: 0 10px 10px 0;}
+
+  .info{
+    background-color: #f2f2f2;
+  }
+
+  .info>span{
+    color:  green;
+  }
+
+
+
+
+
+#logos, .shop{
+  display: inline;
+  float: right;
+}
+
+.shop>a{
+  margin-left: 10px;
+}
+
+.fa{
+  height: 30px;
+  width: 30px;
+  font-size: 30px;
+}
+
+.fa-shopping-cart{
+  color: white;
+}
+
+.fa-facebook-square{
+  color: blue;
+}
+
+.fa-google-plus-square{
+  color: red;
+}
+
+.fa-twitter-square{
+  color: cadetblue;
+}
+
+.icon{
+  height: 20px;
+  width: 20px;
+}

@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 10vh;
+    background-color: red;
+    
+}
+
+main{
+    background-color: green;
+    height: 60vh; /* view height */
+}
+
+footer{
+    background-color: cyan;
+    height: 20vh;
+}
+
+nav > ul{
+    list-style: none;
+    margin-left: 60vw;
+}
+
+nav ul li{
+    display: inline-block;
+    background-color: yellow;
+    margin-left: 15px;
+    padding: 0.6em;
+}

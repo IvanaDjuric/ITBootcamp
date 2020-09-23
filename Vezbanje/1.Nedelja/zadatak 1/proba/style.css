@@ -1,0 +1,110 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e6e6e6;
+}
+h1{
+    color: darkred;
+    font-size: 34px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h2{
+    text-align: center;
+}
+
+nav{
+    position: fixed;
+    top: 60px;
+    left: 35%;
+    
+}
+
+footer{
+    margin-top: 60px;
+    background-color: #b3b3b3;
+    padding: 10px 0;
+}
+
+.container{
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-top: 20px;
+    position: relative;
+}
+
+button{
+    position: absolute;
+    left: 13%;
+}
+
+
+ul > li{
+    display: inline;
+    
+}
+
+ul li a{
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #b3b3b3;
+    padding: 5px;
+    border-radius: 5%;
+}
+
+ul li a:hover{
+    color: black;
+}
+
+section{  
+    width: 400px;
+}
+
+section img{
+    width: 400px;
+    border: 2px solid grey;
+}
+
+section p{
+    text-align: justify;
+}
+
+small{
+    margin-left: 30px;
+    
+}
+
+figcaption{
+    font-style: italic;
+    font-size: 14px;
+    text-indent: 10px;
+}
+
+
+#logos{
+  display: inline;
+  float: right;
+  
+}
+.fa{
+  height: 20px;
+  width: 20px;
+  font-size: 20px;
+  margin: 2px;
+
+}
+
+.fa-facebook-square{
+  color: #3B5998; /*nasla na w3schools u color brands*/
+}
+
+.fa-google-plus-square{
+  color: red;
+}
+
+.fa-twitter-square{
+  color: #55ACEE; /*nasla na w3schools u color brands*/
+  padding-right: 10px;
+}

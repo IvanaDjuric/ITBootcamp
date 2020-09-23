@@ -1,0 +1,25 @@
+import axios from 'axios'const btnRandom = document.querySelector('#random')
+const ulRandom = document.querySelector('#random-ul')
+const search = document.querySelector('#search')
+const ulSearch = document.querySelector('#search-ul')let url = 'https://www.thecocktaildb.com/api/json/v1/1'const getRandom = () => {
+    return axios.get(url + '/random.php')
+}
+const getByName = (name) => {
+    return axios.get(url + `/search.php?s=${name}`)
+}btnRandom.addEventListener('click', () => {
+    getRandom().then(res => {
+        const li = document.createElement('li')
+        li.textContent = res.data.drinks[0].strDrink
+        ulRandom.append(li)
+    })
+})search.addEventListener('input', () => {
+    ulSearch.innerHTML = ''
+    getByName(search.value).then(res => {
+        res.data.drinks.forEach(drink => {
+            const li = document.createElement('li')
+            li.textContent = drink.strDrink
+            console.log(drink);
+            ulSearch.append(li)
+        });
+    })
+})
